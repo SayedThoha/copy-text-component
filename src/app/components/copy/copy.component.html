@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="box">
+    <h2>Copy text componet</h2>
+    <p>Enter the text to copy</p>
+    <input type="text" [(ngModel)]="textToCopy" />
+    <button (click)="copyText()">
+      {{ isCopied ? "copied!" : "copy" }}
+    </button>
+  </div>
+</div>

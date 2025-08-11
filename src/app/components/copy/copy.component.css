@@ -1,0 +1,28 @@
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: azure;
+  height: 100vh;
+}
+
+.box {
+  width: 500px;
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  margin-left: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
